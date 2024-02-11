@@ -1,0 +1,16 @@
+﻿<Window x:Class="EntityFramework_HomeTasks_5.CategoryMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EntityFramework_HomeTasks_5"
+        mc:Ignorable="d"
+        Title="CategoryMenu" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="AddCategoryMenu" Content="Add Category" Margin="0,102,0,0" HorizontalAlignment="Center" Width="376" FontSize="18" Height="44" VerticalAlignment="Top" Click="AddCategoryMenu_Click"/>
+        <Button x:Name="UpdateCategoryMenu" Content="Update Category" Margin="0,173,0,0" HorizontalAlignment="Center" Width="376" FontSize="18" Height="44" VerticalAlignment="Top" Click="UpdateCategoryMenu_Click"/>
+        <Button x:Name="DeleteCategoryMenu" Content="Delete Category" Margin="0,244,0,0" HorizontalAlignment="Center" Width="376" FontSize="18" Height="44" VerticalAlignment="Top" Click="DeleteCategoryMenu_Click"/>
+        <Button x:Name="BackCategoryMenu" Content="Back" Margin="640,358,0,0" HorizontalAlignment="Left" Width="126" FontSize="18" VerticalAlignment="Top" Height="44" Click="BackProductMenu_Click"/>
+
+    </Grid>
+</Window>

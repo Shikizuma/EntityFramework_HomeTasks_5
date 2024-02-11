@@ -1,0 +1,16 @@
+﻿<Window x:Class="EntityFramework_HomeTasks_5.ProductsManageWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EntityFramework_HomeTasks_5"
+        mc:Ignorable="d"
+        Title="ProductsManageWin" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="AddProductMenu" Content="Add Product" Margin="0,102,0,0" HorizontalAlignment="Center" Width="376" FontSize="18" Height="44" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="UpdateProductMenu" Content="Update Product" Margin="0,173,0,0" HorizontalAlignment="Center" Width="376" FontSize="18" Height="44" VerticalAlignment="Top" Click="UpdateProductMenu_Click"/>
+        <Button x:Name="DeleteProductMenu" Content="Delete Product" Margin="0,244,0,0" HorizontalAlignment="Center" Width="376" FontSize="18" Height="44" VerticalAlignment="Top" Click="DeleteProductMenu_Click"/>
+        <Button x:Name="BackProductMenu" Content="Back" Margin="640,358,0,0" HorizontalAlignment="Left" Width="126" FontSize="18" Click="BackProductMenu_Click" VerticalAlignment="Top" Height="44"/>
+
+    </Grid>
+</Window>

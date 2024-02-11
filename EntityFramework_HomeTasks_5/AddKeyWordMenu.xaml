@@ -1,0 +1,18 @@
+﻿<Window x:Class="EntityFramework_HomeTasks_5.AddKeyWordMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EntityFramework_HomeTasks_5"
+        mc:Ignorable="d"
+        Title="AddKeyWordMenu" Height="400" Width="600">
+    <Grid>
+        <Button x:Name="AddButton" Content="Add KeyWord" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Height="58" Width="148" FontSize="18" Click="AddButton_Click"/>
+        <Label Content="KeyWord Name:" HorizontalAlignment="Left" Margin="157,25,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Center" Margin="0,56,0,0" TextWrapping="Wrap" Text="Enter KeyWord Name" VerticalAlignment="Top" Width="280" Height="30" FontSize="18" VerticalContentAlignment="Center" Foreground="#FF423F3F"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="395,304,0,0" VerticalAlignment="Top" Height="40" Width="159" FontSize="18" Click="BackButton_Click"/>
+        <Label Content="KeyWord Header:" HorizontalAlignment="Left" Margin="157,112,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="HeaderTextBox" HorizontalAlignment="Center" Margin="0,143,0,0" TextWrapping="Wrap" Text="Enter KeyWord Header" VerticalAlignment="Top" Width="280" Height="30" FontSize="18" VerticalContentAlignment="Center" Foreground="#FF423F3F"/>
+
+    </Grid>
+</Window>
